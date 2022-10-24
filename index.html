@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/style.css">
     <title>
       Visual JS methods
     </title>
@@ -13,18 +14,32 @@
 <container>
 <p>Test out the methods by clicking the buttons</p>
 
-    <button onclick="myFunction()">Push</button>
+<button class="btnStyle" onclick="pushVis()">Push</button>
 
-<button>unshift</button>
+<button class="btnStyle" onclick="unshiftVis()">unshift</button>
+
+<button class="btnStyle" >Add item</button>
 
 <!-- <form method="post" action=""> -->
-    <input type="submit" value="Insert at" id="submit">
+    <!-- <input type="submit" value="Insert at" id="submit">
         <input type="number" name="insert" id="insert" value="0">
- 
-    
-    
-    <p id="myId"></p>
+  -->
+</container>  
+
+<container>   
+
+<button class="btnStyle" onclick="popVis()">pop</button>
+
+<button class="btnStyle" onclick="shiftVis()">shift</button>
+
+<button class="btnStyle" >Remove item</button>
 </container>
+<p class="tansitions" id="Arr"></p>
+<container id="next">
+
+</container>
+
+
 </body>
 <script src="./assets/script.js"></script>
 </html>
